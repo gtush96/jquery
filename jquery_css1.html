@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p,h1").css({
+            "color": "white",
+            "background-color": "#98bf21",
+            "font-family": "Arial",
+            "font-size": "20px",
+            "padding": "5px"
+        });
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Set multiple CSS properties for all p elements</button>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<h1> Heading </h1>
+</body>
+</html>

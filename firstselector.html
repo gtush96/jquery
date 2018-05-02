@@ -1,0 +1,39 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function() {
+  $("#button1").click(function()  
+{    
+$("ul li:first").hide();
+});   
+$("#button2").click(function()
+{
+$("ul li:first").show();
+});
+$("#button3").click(function()
+{ 
+$("#second").hide();
+});
+});
+</script>  </head>   <body>   
+<p>List 1:</p>
+<ul>
+  <li>Coffee</li>
+  <li id="second">Milk</li>
+  <li>Tea</li>
+</ul>
+
+<p>List 2:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Tea</li>
+</ul>
+<ol>
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Tea</li>
+</ol>
+<button id=button1>Hide</button>  <button id=button2>Show</button>
+<button id=button3>Hide</button></body>   </html>
